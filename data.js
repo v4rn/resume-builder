@@ -40,7 +40,7 @@ data = {
                 "Analyzed memory footprint of a data structure, optimized it and reduced the memory footprint by a factor of 100",
                 "Worked with memory corruptions that involved understanding of GIL, memory fragmentation, operating system and gdb",
                 "Built standalone programs to analyze, gather and present data in C++ and Python that used concepts including - socket programming, Linux signals, multi-processing, multi-threading, Linux command line programs",
-                "Built daemon process from scratch in python to asynchronously transfer data. Managed the daemon by building a program to start, stop and check the status of the daemons",
+                "Built a daemon process from scratch in python to asynchronously transfer data. Created a daemon manager program to start, stop and check the status of the daemons",
                 "Developed GUIs in wxPython",
                 "Conducted phone screen and on-site technical interview process",
                 "Trained/Consulted team members on programming languages and operating system queries",
