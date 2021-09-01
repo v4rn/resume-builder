@@ -15,7 +15,7 @@ data = {
                 "Created a prototype of a resume builder app in HTML, CSS and JavaScript that takes input data from a JSON file",
                 "Simulated Conway's Game of Life and Rule 30 cellular automaton in HTML Canvas and JavaScript",
                 "Learned about MongoDB by following M001 MongoDB course from MongoDB University",
-                "Experimented with promises, generators and async/await to make batched asynchronous requests in Javascript",
+                "Experimented with promises, generators and async/await to make batched asynchronous requests in JavaScript",
                 "Wrote an HTTP Server in Python from scratch which interacted with a small in-memory database (dictionary)",
                 "Built a command line Sudoku solver in Python",
             ],
