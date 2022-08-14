@@ -5,7 +5,8 @@ data = {
     email: 'varun.dabas3@gmail.com',
     jobs: [
         {   // Recurse Center
-            date: 'May 2021',
+            start_date: 'May 2021',
+            end_date: 'Aug 2021',
             title: 'Recurse Center',
             summary: 'A self-directed, educational retreat for programmers',
             tech_used: 'JavaScript, NodeJS, Express, Python, CSS, MongoDB',
@@ -21,7 +22,8 @@ data = {
             ],
         },
         {   // Career Break
-            date: 'Aug 2020',
+            start_date: 'Aug 2020',
+            end_date: 'May 2021',
             title: 'Sabbatical Year',
             summary: 'Career break from the industry',
             tech_used: '',
@@ -31,7 +33,8 @@ data = {
             ],
         },
         {   // Micron Technology, Inc.
-            date: 'Mar 2013',
+            start_date: 'Mar 2013',
+            end_date: 'Aug 2020',
             title: 'Micron Technology, Inc.',
             summary: 'Product Engineer',
             tech_used: 'Python, C++, Linux, Bash, SQL, GNU Debugger, Git',
@@ -49,7 +52,8 @@ data = {
             ],
         },
         {   // Packet Digital
-            date: 'May 2012',
+            start_date: 'May 2012',
+            end_date: 'Feb 2013',
             title: 'Packet Digital',
             summary: 'Engineering Intern',
             tech_used: 'C, Python, SystemVerilog',
@@ -61,7 +65,7 @@ data = {
             ],
         },
         {   // NDSU
-            date: 'Dec 2012',
+            end_date: 'Dec 2012',
             title: 'North Dakota State University',
             summary: 'BS, Electrical Engineering',
             tech_used:'GPA: 3.69/4.0',

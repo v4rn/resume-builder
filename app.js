@@ -58,9 +58,22 @@ function addResumeData() {
         // DATE DIV
         const dates_div = document.createElement('div');
         dates_div.className = 'dates';
-        const dates_text = document.createElement('span');
-        dates_text.textContent = `${job.date}`;
+
+        const dates_text = document.createElement('div');
+        dates_text.textContent = `${job.end_date}`;
+        dates_text.className = 'dates_content';
         dates_div.appendChild(dates_text);
+
+        if (job.start_date !== undefined) {
+            const vertical_span = document.createElement('div');
+            vertical_span.className = 'vertical_line';
+            dates_div.appendChild(vertical_span);
+
+            const dates_text1 = document.createElement('div');
+            dates_text1.textContent = `${job.start_date}`;
+            dates_text1.className = 'dates_content';
+            dates_div.appendChild(dates_text1);            
+        }
         container_div.appendChild(dates_div);
 
         // INFO DIV
