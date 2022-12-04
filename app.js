@@ -2,37 +2,6 @@ document.body.onload = addResumeData;
 
 function addResumeData() {
 
-    /*
-        <header>
-            <h1>Varun Dabas</h1>
-            <h6>Minneapolis, MN</h6>
-            <h6> varun.dabas3@gmail.com</h6>
-        </header>
-
-        <div class="container">
-            <div class="dates">
-                <div>03/2020 -<br> 03/2018</div>
-            </div>
-            <div class="info">
-                <div>Recurse Center</div>
-                <div>
-                    <ul>
-                        <li>
-                            Officia nostrud duis culpa excepteur.
-                        </li>
-                        <li>
-                            Nostrud reprehenderit qui eu eiusmod Lorem laborum elit consequat dolor.
-                        </li>
-                        <li>
-                            Officia laboris nostrud nulla aliqua ullamco in. 
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    */
-
     // header data
     const page = document.getElementById('page');
     const header = document.createElement('header');
@@ -42,7 +11,7 @@ function addResumeData() {
 
     const city_email_div = document.createElement('div');
     city_email_div.className = 'city_email'
-    city_email_div.innerHTML = `<span>${data.city}</span><span>${data.email}</span>`
+    city_email_div.innerHTML = `<span>${data.city}</span><span>${data.email}</span><span>${data.github}</span>`
 
     header.appendChild(name)
     header.appendChild(city_email_div)
