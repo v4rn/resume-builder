@@ -51,7 +51,7 @@ data = {
             tech_used: 'Python, C++, Linux, Bash, SQL, GNU Debugger, Git',
             details: [
                 "Built and maintained software infrastructure to accelerate reliability testing on NAND memory",
-                "Regularly identified and led optimization initiatives to data structures and code to increase tester capacity. One particular initiative reduced the memory footprint by a factor of 100",
+                "Regularly identified and led initiatives to optimize data structures and code to increase tester capacity. One particular initiative reduced the memory footprint by a factor of 100",
                 "Scoped, identified and led troubleshooting of memory corruption bugs by referencing CPython source code, and the C++ Standard",
                 "Built and maintained a deamon management system - that managed daemon processes that routinely ran health checks, and data management tasks",
                 "Built and maintained a reporting system - that regularly sent summarized test results to engineers enabling them to quickly access efficacy of their tests",
